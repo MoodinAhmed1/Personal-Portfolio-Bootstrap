@@ -14,4 +14,54 @@
     font-weight: 300;
     font-style: normal;
   }
-  
+  #about nav ul {
+	display: flex;
+	font-size: 20px;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+#about .info-link {
+	margin-right: 40px;
+	cursor: pointer;
+	font-weight: 200;
+    color: rgb(31, 168, 88);
+}
+#about .info-link::after {
+	content: "";
+	height: 4px;
+	width: 0%;
+	background-color: rgb(31, 168, 88);
+	display: block;
+}
+#about .info-link:hover::after {
+	width: 50%;
+	transition: 0.3s;
+}
+
+.hide {
+	display: none;
+}
+.show {
+	display: initial;
+}
+#about .selected::after {
+	content: "";
+	height: 4px;
+	width: 50%;
+	background-color: rgb(31, 168, 88);
+	display: block;
+}
+#about .info-section {
+	height: 200px;
+}
+#about .info-section span {
+	font-size: 20px;
+	color: rgb(31, 168, 88);
+	font-weight: 200;
+}
+#about .info-section p {
+	font-weight: 200;
+	font-size: 14px;
+}
