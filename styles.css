@@ -1,0 +1,17 @@
+#home {
+    background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-vector-palm-leaves-green-leaves-contours-background-textiles-packaging-fabrics-wallpapers-backgrounds-invitations-summer-tropics-hand-illustration_407307-3809.jpg?w=740'); 
+    background-size: contain;
+    height: 400px;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
