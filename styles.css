@@ -65,3 +65,33 @@
 	font-weight: 200;
 	font-size: 14px;
 }
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 200px; /* Set a maximum height for the image */
+  }
+
+  .card a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
+  }
