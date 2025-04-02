@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, p {
 	list-style: none;
 	padding: 0;
 	margin-bottom: 20px;
-	font-size: 20px;
+	font-size: 1.7em;
 }
 #about .info-link {
 	margin-right: 0.8em;
@@ -65,13 +65,14 @@ h1, h2, h3, h4, h5, p {
 }
 
 #about .info-section span {
-	font-size: 20px;
+	font-size: 1.4em;
 	color: rgb(31, 168, 88);
 	font-weight: 200;
 }
 #about .info-section p {
 	font-weight: 200;
-	font-size: 14px;
+	font-size: 1.2em;
+  text-align: center;
 }
 
 .card {
