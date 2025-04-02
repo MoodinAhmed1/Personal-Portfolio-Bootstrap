@@ -30,8 +30,7 @@ h1, h2, h3, h4, h5, p {
 	list-style: none;
 	padding: 0;
 	margin-bottom: 20px;
-	font-size: 1.7em;
-  overflow-x: scroll;
+	font-size: 1em;
 }
 #about .info-link {
 	margin-right: 0.8em;
