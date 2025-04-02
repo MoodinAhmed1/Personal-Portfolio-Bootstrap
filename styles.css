@@ -1,7 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 #home {
     background-image: url('https://img.freepik.com/premium-vector/seamless-pattern-vector-palm-leaves-green-leaves-contours-background-textiles-packaging-fabrics-wallpapers-backgrounds-invitations-summer-tropics-hand-illustration_407307-3809.jpg?w=740'); 
     background-size: contain;
     height: 400px;
+}
+
+h1, h2, h3, h4, h5, p {
+  overflow: hidden;
 }
 
 .poppins-bold {
@@ -23,10 +33,10 @@
 	font-size: 20px;
 }
 #about .info-link {
-	margin-right: 40px;
+	margin-right: 0.8em;
 	cursor: pointer;
 	font-weight: 200;
-    color: rgb(31, 168, 88);
+  color: rgb(31, 168, 88);
 }
 #about .info-link::after {
 	content: "";
@@ -53,9 +63,7 @@
 	background-color: rgb(31, 168, 88);
 	display: block;
 }
-#about .info-section {
-	height: 200px;
-}
+
 #about .info-section span {
 	font-size: 20px;
 	color: rgb(31, 168, 88);
